@@ -8,8 +8,9 @@ const bot1 = new Eris(process.env.token2);
 bot.on("error", (err) => {
   console.error(err); // or your preferred logger
 });
-bot.on1("error", (err) => {
+bot1.on("error", (err) => {
   console.error(err); // or your preferred logger
 });
 
 bot.connect(); // Get the bot to connect to Discord
+bot1.connect(); // Get the bot to connect to Discord
