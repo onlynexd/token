@@ -12,7 +12,6 @@ const bot14 = new Eris(process.env.token14);
 const bot15 = new Eris(process.env.token15);
 const bot16 = new Eris(process.env.token16);
 
-});
 bot8.on("error", (err) => {
   console.error(err); // or your preferred logger
 });
