@@ -11,7 +11,6 @@ const bot13 = new Eris(process.env.token13);
 const bot14 = new Eris(process.env.token14);
 const bot15 = new Eris(process.env.token15);
 const bot16 = new Eris(process.env.token16);
-const bot17 = new Eris(process.env.token17);
 
 bot6.on("error", (err) => {
   console.error(err); // or your preferred logger
@@ -46,9 +45,6 @@ bot15.on("error", (err) => {
 bot16.on("error", (err) => {
   console.error(err); // or your preferred logger
 });
-bot17.on("error", (err) => {
-  console.error(err); // or your preferred logger
-});
 
 bot6.connect(); // Get the bot to connect to Discord
 bot7.connect(); // Get the bot to connect to Discord
@@ -61,4 +57,3 @@ bot13.connect(); // Get the bot to connect to Discord
 bot14.connect(); // Get the bot to connect to Discord
 bot15.connect(); // Get the bot to connect to Discord
 bot16.connect(); // Get the bot to connect to Discord
-bot17.connect(); // Get the bot to connect to Discord
